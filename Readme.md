@@ -7,6 +7,10 @@ The following implementation contains five files:
 - `input.txt`: the file containing the name of the file to be transferred and the IP address, port number of proxies, and server
 - `client_file.txt`: the output file saved at the client side
 
+## Assumptions
+
+* The file size is assumed to be less than 1024 bytes. If not we can always change the upper cap in the send and rcv methods.
+* Server was tested on localhost, hence the IP address is set as localhost. The IP address can be changed where the socket is getting bound.
 
 ## How to run the code?
 
@@ -35,9 +39,3 @@ with open("client_file.txt", 'wb') as f:
 ```
 
 Replace the `client_file.txt` with the file's name with the appropriate extension.
-
-## About the code
-
-* The file size is assumed to be less than 1024 bytes. If not we can always change the upper cap in the send and rcv methods.
-* Server was tested on localhost, hence the IP address is set as localhost. The IP address can be changed where the socket is getting bound.
-* Classes have been created to follow OOP principles
