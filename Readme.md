@@ -17,8 +17,8 @@ The following implementation contains five files:
 Run the server:
 ```bash
 python server.py
-Enter port number: 
 ```
+This would be followed by a prompt to enter the port number. Enter the desired port number.
 Run the client:
 ```bash
 python client.py
