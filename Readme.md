@@ -19,6 +19,7 @@ Run the server:
 python server.py
 ```
 This would be followed by a prompt to enter the port number. Enter the desired port number.
+
 Run the client:
 ```bash
 python client.py
