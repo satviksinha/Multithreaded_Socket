@@ -28,4 +28,5 @@ Replace the `client_file.txt` with the file's name with the appropriate extensio
 ## About the code
 
 * The file size is assumed to be less than 1024 bytes. If not we can always change the upper cap in the send and rcv methods.
+* Server was tested on localhost, hence the IP address is set as localhost. The IP address can be changed where the socket is getting bound.
 * Classes have been created to follow OOP principles
