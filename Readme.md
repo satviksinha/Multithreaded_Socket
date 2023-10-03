@@ -14,6 +14,16 @@ The following implementation contains five files:
 * The port number will be asked as input from the user when running the server.
 * Run the client on a separate terminal after running the servers on different terminals.
 
+Run the server:
+```bash
+python server.py
+Enter port number: 
+```
+Run the client:
+```bash
+python client.py
+```
+
 You can transfer files from the server to the client through the proxies following these steps.
 
 A new `client_file.txt` gets created on the client side with the data. If you want to transfer a binary file, change the name of the file in the following piece of code at the client side:
